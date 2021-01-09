@@ -4,19 +4,13 @@
   box-sizing: border-box;
 }
 
-.typeForm{
+.FORM{
   display: flex;
   font-family: sans-serif;
   text-align: center;
   color:#498DEA;
   justify-content: space-around;
   font-size: 2vh;
-}
-
-.search-title h1{
-  text-align: center;
-  font-family:sans-serif;
-  color: #498DEA;
 }
 
 .FORM{
