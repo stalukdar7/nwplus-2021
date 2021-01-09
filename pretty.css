@@ -1,1 +1,8 @@
-Css bit
+.typeForm{
+  display: flex;
+  font-family: sans-serif;
+  text-align: center;
+  color:#498DEA;
+  justify-content: space-around;
+  font-size: 2vh;
+}
