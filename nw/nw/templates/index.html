@@ -1,0 +1,82 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Natural Disaster Tracker</title>
+        <style>
+     body {background-color: #00FFFF;}
+     h1 {text-align: center;}
+     form {text-align: center;}
+    </style>
+     </head>
+
+<header>
+  <h1 style="color: red;">Natural Disaster Tracker</h1>
+</header>
+
+    <body>
+                <form action="{{ url_for('handle_data') }}" method="post"> 
+
+                    <input type = "text" name="lattitude" placeholder="Lattitude">
+
+                    <input type = "text" name="longtitude" placeholder="Longitude"> <br>
+
+                    <input type="radio" id="drought" name="eventId" value=6>
+                    <label for="drought">Droughts</label> <br>
+
+                    <input type="radio" id="earthquake" name="eventId" value=16>
+                    <label for="earthquake">Earthquakes</label> <br>
+
+                    <input type="radio" id="flood" name="eventId" value=9>
+                    <label for="flood">Floods</label> <br>
+
+                    <input type="radio" id="landslide" name="eventId" value=14>
+                    <label for="landslide">Landslides</label> <br>
+
+                    <input type="radio" id="storm" name="eventId" value=10>
+                    <label for="storm">Severe Storms</label> <br>
+
+                    <input type="radio" id="snow" name="eventId" value=17>
+                    <label for="snow">Snowfall</label> <br>
+
+                    <input type="radio" id="volcano" name="eventId" value=12>
+                    <label for="volcano">Volcanoes</label> <br>
+
+                    <input type="radio" id="wildfire" name="eventId" value=8>
+                    <label for="wildifire">Wildfires</label> <br>
+
+                    <input type="radio" id="dusthaze" name="eventId" value=7>
+                    <label for="dusthaze">Dust & Haze</label> <br>
+
+                    <input type="radio" id="manmade" name="eventId" value=19>
+                    <label for="Manmade">Manmade</label> <br>
+
+                    <input type="radio" id="sealakeice" name="eventId" value=15>
+                    <label for="dusthaze">Sea and Lake Ice</label> <br>
+
+                    <input type="radio" id="temperature" name="eventId" value=18>
+                    <label for="sealakeice">Temperature Extremes</label> <br>
+
+                    <input type="radio" id="water" name="eventId" value=13>
+                    <label for="water">Water Color</label> <br>
+
+                    <input type = "text" name="radius" placeholder="Radius"> <br>
+
+                    <input type = "text" name="start" placeholder="Start year">
+
+                    <input type = "text" name="end" placeholder="End year"> <br>
+
+                    <input type="submit">
+
+                     
+
+                </form>
+
+
+
+    </body>
+</html>
