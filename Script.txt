@@ -1,0 +1,11 @@
+Our project is called "Natural Disaster Tracker".
+
+Initially , the goal of our project was to be able to track earthquakes around the world, and
+particularly BC since we go to school there. Later we decided to include more natural disasters such as floods, droughts,
+volcanic activities and more.
+
+A large part of our project depended on using the data provided by the NASA EONET API. The EONET(Earth Observatory Natural Event Tracker) API 
+provided us with all the different kinds of natural disasters organized by cateogries and further contained data on specific events
+that have occured since the time it started tracking. 
+
+We used Python and Flask for the API interactions and fetching the data and then represented the data using our HTML&CSS files.
