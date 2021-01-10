@@ -3,11 +3,19 @@
 f = open('output.html','wb')
 
 message = """<html>
-<head></head>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+</head>
 <body>
 <table style="width:100%">
   <tr>
-    <th>Name</th>
+    <th>Event Name</th>
+    <th>Date Happened</th>
     <th>Type of Disaster</th>
     <th>Coordinates</th>
   </tr>
