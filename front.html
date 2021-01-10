@@ -17,44 +17,44 @@
         <div class=vertical-align>
             <!-- Collection of Lattitude and Longitude Coordinates from User-->
             <div class='FORM'>
-                <form>
+                <form name="form" action="script.py" method="get">
 
-                    <input type = "text" placeholder="Lattitude">
+                    <input type = "text" name="lattitude" placeholder="Lattitude">
 
-                    <input type = "text" placeholder="Longitude"><br>
+                    <input type = "text" placeholder="Longitude">
 
                     <input type="radio" id="drought" name="event" value="drought">
-                    <label for="drought">Droughts</label><br>
+                    <label for="drought">Droughts</label>
 
                     <input type="radio" id="earthquake" name="event" value="earthquake">
-                    <label for="earthquake">Earthquakes</label><br>
+                    <label for="earthquake">Earthquakes</label>
 
                     <input type="radio" id="flood" name="event" value="flood">
-                    <label for="flood">Floods</label><br>
+                    <label for="flood">Floods</label>
 
                     <input type="radio" id="landslide" name="event" value="landslide">
-                    <label for="landslide">Landslides</label><br>
+                    <label for="landslide">Landslides</label>
 
                     <input type="radio" id="storm" name="event" value="storm">
-                    <label for="storm">Storms</label><br>
+                    <label for="storm">Storms</label>
 
                     <input type="radio" id="snow" name="event" value="snow">
-                    <label for="snow">Snowfall</label><br>
+                    <label for="snow">Snowfall</label>
 
                     <input type="radio" id="volcano" name="event" value="volcano">
-                    <label for="volcano">Volcanoes</label><br>
+                    <label for="volcano">Volcanoes</label>
 
                     <input type="radio" id="wildfire" name="event" value="wildfire">
-                    <label for="wildifire">Wildfires</label><br>
+                    <label for="wildifire">Wildfires</label>
 
                     <input type="radio" id="dusthaze" name="event" value="dusthaze">
-                    <label for="dusthaze">Dust & Haze</label><br>
+                    <label for="dusthaze">Dust & Haze</label>
 
                     <input type = "text" placeholder="radius">
 
                     <input type = "text" placeholder="number of years">
 
-                    <button type="submit">Submit!</button>
+                    <button type="submit" onclick="script.py">Submit!</button>
 
                 </form>
             </div>
