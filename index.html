@@ -29,50 +29,56 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Title</title>
+        <title>Natural Disaster Tracker</title>
+        <style>
+     body {background-color: #00FFFF;}
+    </style>
      </head>
 
+<header>
+  <h1>Natural Disaster Tracker</h1>
+</header>
     <body>
-                <form action="{{ url_for('handle_data') }}" method="post"> 
+                <form action="{{ url_for('handle_data') }}" method="post">
 
                     <input type = "text" name="lattitude" placeholder="Lattitude">
 
-                    <input type = "text" name="longtitude" placeholder="Longitude">
+                    <input type = "text" name="longtitude" placeholder="Longitude"> <br>
 
                     <input type="radio" id="drought" name="event" value="drought">
-                    <label for="drought">Droughts</label>
+                    <label for="drought">Droughts</label> <br>
 
                     <input type="radio" id="earthquake" name="event" value="earthquake">
-                    <label for="earthquake">Earthquakes</label>
+                    <label for="earthquake">Earthquakes</label> <br>
 
                     <input type="radio" id="flood" name="event" value="flood">
-                    <label for="flood">Floods</label>
+                    <label for="flood">Floods</label> <br>
 
                     <input type="radio" id="landslide" name="event" value="landslide">
-                    <label for="landslide">Landslides</label>
+                    <label for="landslide">Landslides</label> <br>
 
                     <input type="radio" id="storm" name="event" value="storm">
-                    <label for="storm">Storms</label>
+                    <label for="storm">Storms</label> <br>
 
                     <input type="radio" id="snow" name="event" value="snow">
-                    <label for="snow">Snowfall</label>
+                    <label for="snow">Snowfall</label> <br>
 
                     <input type="radio" id="volcano" name="event" value="volcano">
-                    <label for="volcano">Volcanoes</label>
+                    <label for="volcano">Volcanoes</label> <br>
 
                     <input type="radio" id="wildfire" name="event" value="wildfire">
-                    <label for="wildifire">Wildfires</label>
+                    <label for="wildifire">Wildfires</label> <br>
 
                     <input type="radio" id="dusthaze" name="event" value="dusthaze">
-                    <label for="dusthaze">Dust & Haze</label>
+                    <label for="dusthaze">Dust & Haze</label> <br>
 
-                    <input type = "text" name="radius" placeholder="Radius">
+                    <input type = "text" name="radius" placeholder="Radius"> <br>
 
-                    <input type = "text" name="time" placeholder="Number of years"> 
+                    <input type = "text" name="time" placeholder="Number of years"> <br>
 
                     <input type="submit">
 
-                     
+
 
                 </form>
 
