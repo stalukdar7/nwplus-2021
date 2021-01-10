@@ -8,7 +8,7 @@ message = """<html>
 <table style="width:100%">
   <tr>
     <th>Name</th>
-    <th>Location</th>
+    <th>Type of Disaster</th>
     <th>Coordinates</th>
   </tr>
   <tr>
